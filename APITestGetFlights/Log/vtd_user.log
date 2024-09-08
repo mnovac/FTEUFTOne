@@ -1,30 +1,30 @@
-2024-09-08 11:27:36,565 [1] INFO  - Loaded appender: FileAppenderExternal
-2024-09-08 11:27:36,574 [1] INFO  - Loaded appender: UserLoggerAppender
-2024-09-08 11:27:36,574 [1] INFO  - Loaded appender: FileAppenderInternal
-2024-09-08 11:27:36,574 [1] INFO  - Loaded appender: FileAppenderExternal
-2024-09-08 11:27:36,575 [1] INFO  - Loaded appender: UserLoggerAppender
-2024-09-08 11:27:36,575 [1] INFO  - Loaded appender: FileAppenderInternal
-2024-09-08 11:27:36,918 [18] INFO  - Step 'Start' : Step 'Start' started
-2024-09-08 11:27:36,945 [18] INFO  - Step 'Start' ended successfully
-2024-09-08 11:27:36,946 [18] INFO  - Step 'Test Flow' : Step 'Test Flow' started
-2024-09-08 11:27:36,948 [18] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
-2024-09-08 11:27:36,952 [18] INFO  - Step 'GetFlights7' : Step 'GetFlights7' started
-2024-09-08 11:27:36,970 [18] INFO  - Step 'GetFlights7' : Fetching HTTP Url: 'http://localhost:8000/Flights_REST/Flights?DepartureCity=London&ArrivalCity=Paris&Date=1/30/2026 12:00:00 AM'
-2024-09-08 11:27:37,064 [18] INFO  - Step 'GetFlights7' : Server returned status code: 200
-2024-09-08 11:27:37,066 [18] INFO  - Step 'GetFlights7' : HTTP Raw request:
-2024-09-08 11:27:37,067 [18] INFO  - Step 'GetFlights7' : GET http://localhost:8000/Flights_REST/Flights?DepartureCity=London&ArrivalCity=Paris&Date=1/30/2026 12:00:00 AM 1.1
+2024-09-08 13:47:28,373 [1] INFO  - Loaded appender: FileAppenderExternal
+2024-09-08 13:47:28,438 [1] INFO  - Loaded appender: UserLoggerAppender
+2024-09-08 13:47:28,440 [1] INFO  - Loaded appender: FileAppenderInternal
+2024-09-08 13:47:28,442 [1] INFO  - Loaded appender: FileAppenderExternal
+2024-09-08 13:47:28,444 [1] INFO  - Loaded appender: UserLoggerAppender
+2024-09-08 13:47:28,446 [1] INFO  - Loaded appender: FileAppenderInternal
+2024-09-08 13:47:30,014 [18] INFO  - Step 'Start' : Step 'Start' started
+2024-09-08 13:47:30,153 [18] INFO  - Step 'Start' ended successfully
+2024-09-08 13:47:30,159 [18] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2024-09-08 13:47:30,180 [18] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2024-09-08 13:47:30,196 [18] INFO  - Step 'GetFlights7' : Step 'GetFlights7' started
+2024-09-08 13:47:30,268 [18] INFO  - Step 'GetFlights7' : Fetching HTTP Url: 'http://localhost:8000/Flights_REST/Flights?DepartureCity=London&ArrivalCity=Paris&Date=1/30/2026 12:00:00 AM'
+2024-09-08 13:47:30,664 [18] INFO  - Step 'GetFlights7' : Server returned status code: 200
+2024-09-08 13:47:30,690 [18] INFO  - Step 'GetFlights7' : HTTP Raw request:
+2024-09-08 13:47:30,696 [18] INFO  - Step 'GetFlights7' : GET http://localhost:8000/Flights_REST/Flights?DepartureCity=London&ArrivalCity=Paris&Date=1/30/2026 12:00:00 AM 1.1
 Host: localhost:8000
 Connection: Keep-Alive
 
-2024-09-08 11:27:37,068 [18] INFO  - Step 'GetFlights7' : HTTP Raw response:
-2024-09-08 11:27:37,069 [18] INFO  - Step 'GetFlights7' : HTTP/1.1 200 OK
+2024-09-08 13:47:30,710 [18] INFO  - Step 'GetFlights7' : HTTP Raw response:
+2024-09-08 13:47:30,716 [18] INFO  - Step 'GetFlights7' : HTTP/1.1 200 OK
 Content-Length: 1752
 Content-Type: application/xml; charset=utf-8
-Date: Sun, 08 Sep 2024 08:27:37 GMT
+Date: Sun, 08 Sep 2024 10:47:30 GMT
 Server: Microsoft-HTTPAPI/2.0
 <ArrayOfFlight xmlns="HP.SOAQ.SampleApp" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Flight><Airline>NW</Airline><ArrivalCity>Paris</ArrivalCity><ArrivalTime>07:55 PM</ArrivalTime><DepartureCity>London</DepartureCity><DepartureTime>06:15 PM</DepartureTime><FlightNumber>11820</FlightNumber><Price>138.6</Price></Flight><Flight><Airline>NW</Airline><ArrivalCity>Paris</ArrivalCity><ArrivalTime>03:07 PM</ArrivalTime><DepartureCity>London</DepartureCity><DepartureTime>01:27 PM</DepartureTime><FlightNumber>12274</FlightNumber><Price>155</Price></Flight><Flight><Airline>AF</Airline><ArrivalCity>Paris</ArrivalCity><ArrivalTime>10:00 AM</ArrivalTime><DepartureCity>London</DepartureCity><DepartureTime>08:00 AM</DepartureTime><FlightNumber>12534</FlightNumber><Price>165.5</Price></Flight><Flight><Airline>AF</Airline><ArrivalCity>Paris</ArrivalCity><ArrivalTime>12:24 PM</ArrivalTime><DepartureCity>London</DepartureCity><DepartureTime>10:24 AM</DepartureTime><FlightNumber>12538</FlightNumber><Price>162.4</Price></Flight><Flight><Airline>AF</Airline><ArrivalCity>Paris</ArrivalCity><ArrivalTime>02:48 PM</ArrivalTime><DepartureCity>London</DepartureCity><DepartureTime>12:48 PM</DepartureTime><FlightNumber>12542</FlightNumber><Price>165.6</Price></Flight><Flight><Airline>AF</Airline><ArrivalCity>Paris</ArrivalCity><ArrivalTime>05:12 PM</ArrivalTime><DepartureCity>London</DepartureCity><DepartureTime>03:12 PM</DepartureTime><FlightNumber>12546</FlightNumber><Price>165.7</Price></Flight><Flight><Airline>NW</Airline><ArrivalCity>Paris</ArrivalCity><ArrivalTime>11:31 AM</ArrivalTime><DepartureCity>London</DepartureCity><DepartureTime>09:51 AM</DepartureTime><FlightNumber>12935</FlightNumber><Price>168.2</Price></Flight></ArrayOfFlight>
-2024-09-08 11:27:37,074 [18] INFO  - Step 'GetFlights7' ended successfully
-2024-09-08 11:27:37,077 [18] INFO  - Step 'Iteration 1' ended successfully
-2024-09-08 11:27:37,079 [18] INFO  - Step 'Test Flow' ended successfully
-2024-09-08 11:27:37,080 [18] INFO  - Step 'End' : Step 'End' started
-2024-09-08 11:27:37,088 [18] INFO  - Step 'End' ended successfully
+2024-09-08 13:47:30,734 [18] INFO  - Step 'GetFlights7' ended successfully
+2024-09-08 13:47:30,745 [18] INFO  - Step 'Iteration 1' ended successfully
+2024-09-08 13:47:30,753 [18] INFO  - Step 'Test Flow' ended successfully
+2024-09-08 13:47:30,758 [18] INFO  - Step 'End' : Step 'End' started
+2024-09-08 13:47:30,794 [18] INFO  - Step 'End' ended successfully
