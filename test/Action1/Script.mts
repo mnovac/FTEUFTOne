@@ -39,3 +39,5 @@ WpfWindow("OpenText MyFlight Sample").WpfButton("OK").Click @@ hightlight id_;_1
 End If
 Reporter.ReportEvent micDone, "Login Done","the Flight App Done login Test"
 systemUtil.CloseProcessByName ("FlightsGUI.exe")
+RunAPITest "APITestGetFlights"
+
