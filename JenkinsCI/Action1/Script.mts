@@ -17,5 +17,4 @@ wait(2) @@ script infofile_;_ZIP::ssf5.xml_;_
 Browser("System [Jenkins]").Page("System [Jenkins]").WebButton("Test Connection").Click @@ script infofile_;_ZIP::ssf6.xml_;_
 Browser("System [Jenkins]").Page("System [Jenkins]").WebButton("Apply").Click @@ script infofile_;_ZIP::ssf9.xml_;_
 Browser("System [Jenkins]").Page("System [Jenkins]").WebButton("Save").Click
-End If  @@ script infofile_;_ZIP::ssf34.xml_;_
-
+End If 
