@@ -1,4 +1,18 @@
-﻿x = Browser("System [Jenkins]").Page("System [Jenkins]").WebEdit("_.uiLocation_2").getROProperty("value")
+﻿Dim iURL
+Dim objShell
+iURL = Parameter("url")
+set objShell = CreateObject("Shell.Application")
+
+Set fileSystemObj = createobject("Scripting.FileSystemObject")
+edgeExist = "C:\Program Files\Mozilla Firefox\firefox.exe"
+If fileSystemObj.FileExists(edgeExist) then
+objShell.ShellExecute "C:\Program Files\Mozilla Firefox\firefox.exe", iURL, "", ""
+Else
+objShell.ShellExecute "C:\Program Files (x86)\Mozilla Firefox\firefox.exe", iURL, "", ""
+End If
+wait(3)
+Browser("Browser").Navigate Parameter("Jenkins_URL")
+x = Browser("System [Jenkins]").Page("System [Jenkins]").WebEdit("_.uiLocation_2").getROProperty("value")
 
 If x=Parameter("Location") Then
 	Reporter.ReportEvent micWarning, "Octane URL already exist", "Octane URL with the same Tenant already exist in Jenkins configure"
