@@ -10,8 +10,9 @@ objShell.ShellExecute "C:\Program Files\Mozilla Firefox\firefox.exe", iURL, "", 
 Else
 objShell.ShellExecute "C:\Program Files (x86)\Mozilla Firefox\firefox.exe", iURL, "", ""
 End If
+
+Browser("System [Jenkins]").Navigate Parameter("Jenkins_URL") @@ hightlight id_;_1840930_;_script infofile_;_ZIP::ssf42.xml_;_
 wait(3)
-Browser("Browser").Navigate Parameter("Jenkins_URL")
 x = Browser("System [Jenkins]").Page("System [Jenkins]").WebEdit("_.uiLocation_2").getROProperty("value")
 
 If x=Parameter("Location") Then
