@@ -9,13 +9,6 @@ objShell.ShellExecute "C:\Program Files (x86)\Micro Focus\UFT One\samples\Flight
 Else
 objShell.ShellExecute "C:\Program Files (x86)\OpenText\UFT One\samples\Flights Application\FlightsGUI.exe"
 End If
-
-<<<<<<< HEAD
-RunAPITest "APITestGetFlights"
-
-
-=======
->>>>>>> 304c5a24058af2847ba4b56427d6ea158dd9f032
 '-----------------------------------------------------------------------------------------------------------------------
 If WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Exist(3) Then @@ hightlight id_;_2067902600_;_script infofile_;_ZIP::ssf7.xml_;_
 WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Set Parameter("User_Name") @@ hightlight id_;_2113647904_;_script infofile_;_ZIP::ssf9.xml_;_
