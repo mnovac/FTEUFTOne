@@ -10,6 +10,7 @@ Else
 objShell.ShellExecute "C:\Program Files (x86)\OpenText\UFT One\samples\Flights Application\FlightsGUI.exe"
 End If
 
+
 '-----------------------------------------------------------------------------------------------------------------------
 If WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Exist(3) Then @@ hightlight id_;_2067902600_;_script infofile_;_ZIP::ssf7.xml_;_
 WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Set Parameter("User_Name") @@ hightlight id_;_2113647904_;_script infofile_;_ZIP::ssf9.xml_;_
