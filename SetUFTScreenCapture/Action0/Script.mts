@@ -1,0 +1,1 @@
+﻿RunAction "ScreenCapture", oneIteration
