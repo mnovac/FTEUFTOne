@@ -16,7 +16,6 @@ Login=Action1\Script.mts
 RegisterNewUser=Action2\Script.mts
 OpenNewAccount=Action3\Script.mts
 Logout=Action4\Script.mts
-SYNC_new_action=Action5\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -69,6 +68,3 @@ Action3\ObjectRepository.bdb=
 Action4\Script.mts=
 Action4\Resource.mtr=
 Action4\ObjectRepository.bdb=
-Action5\Script.mts=
-Action5\Resource.mtr=
-Action5\ObjectRepository.bdb=
