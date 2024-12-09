@@ -12,8 +12,7 @@ DevelopTool=AQT
 
 [Actions]
 Action0=Action0\Script.mts
-UpdateCurrectAccessKey=Action1\Script.mts
-UpdateIncurrectAccessKey=Action2\Script.mts
+SanityFlightLoginJenkinsRun=Action1\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -41,10 +40,8 @@ AI=
 Database=
 File Content=
 Insight=
-Mobile=
 Windows Applications=
 TEA=
-UI Automation=
 Web=
 WPF=
 XML=
@@ -60,6 +57,3 @@ Action0\ObjectRepository.bdb=
 Action1\Script.mts=
 Action1\Resource.mtr=
 Action1\ObjectRepository.bdb=
-Action2\Script.mts=
-Action2\Resource.mtr=
-Action2\ObjectRepository.bdb=
