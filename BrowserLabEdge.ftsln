@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0
+Project("") = "BrowserLabEdge", "BrowserLabEdge\Test.tsp", "BB1F5C0F-322E-44AB-9104-5889EBC61367"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = D:\OpenText\FTEUFTOne\BrowserLabEdge\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		BB1F5C0F-322E-44AB-9104-5889EBC61367.Debug|Any CPU.Build.0 = Debug|Any CPU
+		BB1F5C0F-322E-44AB-9104-5889EBC61367.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		BB1F5C0F-322E-44AB-9104-5889EBC61367.Release|Any CPU.Build.0 = Release|Any CPU
+		BB1F5C0F-322E-44AB-9104-5889EBC61367.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
