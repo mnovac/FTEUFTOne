@@ -1,6 +1,6 @@
 ﻿If Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("username").Exist Then
-Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("username").Set "admin"
-Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("password").SetSecure "675edf0994d2a55e30d22cb23a02" @@ script infofile_;_ZIP::ssf10.xml_;_
+Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("username").Set Parameter("username")
+Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("password").SetSecure Parameter("password") @@ script infofile_;_ZIP::ssf10.xml_;_
 Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebButton("Sign-In").Click
 End If @@ script infofile_;_ZIP::ssf11.xml_;_
 
