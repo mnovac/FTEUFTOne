@@ -3,10 +3,10 @@ myKey = "HKCU\SOFTWARE\Mercury Interactive\QuickTest Professional\MicTest\Snapsh
 WshShell.RegWrite myKey, Parameter("save_image"),"REG_DWORD"
 Set WshShell = Nothing
 
-Set WshShell = CreateObject("WScript.Shell")
-myKey = "HKCU\SOFTWARE\Mercury Interactive\QuickTest Professional\MicTest\SaveMobileGif"
-WshShell.RegWrite myKey, Parameter("save_mobile_gif"),"REG_DWORD"
-Set WshShell = Nothing
+'Set WshShell = CreateObject("WScript.Shell")
+'myKey = "HKCU\SOFTWARE\Mercury Interactive\QuickTest Professional\MicTest\SaveMobileGif"
+'WshShell.RegWrite myKey, Parameter("save_mobile_gif"),"REG_DWORD"
+'Set WshShell = Nothing
 
 Set WshShell = CreateObject("WScript.Shell")
 myKey = "HKCU\SOFTWARE\Mercury Interactive\QuickTest Professional\MicTest\MovieReportMode"
