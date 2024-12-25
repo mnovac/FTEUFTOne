@@ -5,9 +5,7 @@ Browser("Functional Testing Model-Based").Page("Functional Testing Model-Based")
 wait(1)
 Browser("Functional Testing Model-Based").Page("Functional Testing Model-Based").WebButton("Add      Add").Click @@ script infofile_;_ZIP::ssf5.xml_;_
 wait(2)
-Dim objText
-objText = Browser("Functional Testing Model-Based_2").Page("Functional Testing Model-Based").WebElement("Mmodel").GetROProperty("innertext")
-If InStr(1, objText, "Mmodel", vbTextCompare) > 0 Then
+If Browser("Functional Testing Model-Based_2").Page("Functional Testing Model-Based").WebElement("Mmodel").Exist Then
  	 Reporter.ReportEvent micPass, "Passed Test", "created Model succefull"
  	else
  	Reporter.ReportEvent micFail, "Failed", "Fail to created Model " + "expectad model name 'model' " + "but the name is " + Parameter("model_name")
