@@ -2,4 +2,3 @@
 RunAction "CreateFolder", oneIteration
 RunAction "CreateModel", oneIteration
 RunAction "CreateUnit", oneIteration
-RunAction "CreateDiagram", oneIteration
