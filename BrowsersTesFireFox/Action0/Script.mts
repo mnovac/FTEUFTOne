@@ -1,1 +1,0 @@
-﻿RunAction "FireFox", oneIteration
