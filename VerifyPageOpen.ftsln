@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0
+Project("") = "VerifyPageOpen", "VerifyPageOpen\Test.tsp", "09EA1430-4D02-4ED5-9C98-D645D8702F9D"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = E:\OpenText\Workspace\FTEUFTOne\VerifyPageOpen\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		09EA1430-4D02-4ED5-9C98-D645D8702F9D.Debug|Any CPU.Build.0 = Debug|Any CPU
+		09EA1430-4D02-4ED5-9C98-D645D8702F9D.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		09EA1430-4D02-4ED5-9C98-D645D8702F9D.Release|Any CPU.Build.0 = Release|Any CPU
+		09EA1430-4D02-4ED5-9C98-D645D8702F9D.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
