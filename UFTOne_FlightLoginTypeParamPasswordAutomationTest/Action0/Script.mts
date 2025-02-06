@@ -1,1 +1,1 @@
-﻿RunAction "LoginUnit", oneIteration
+﻿RunAction "LoginUnitTypeParam", oneIteration
