@@ -1,2 +1,2 @@
-﻿RunAction "1 LoginUmit", oneIteration
+﻿RunAction "1 LoginUnit", oneIteration
 RunAction "2 RestAPITestCreateOrderUnit", oneIteration
