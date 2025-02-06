@@ -19,4 +19,4 @@ Reporter.ReportEvent micFail, "Failed Test", "FireFox Browser Failed"
 End If
  @@ hightlight id_;_197104_;_script infofile_;_ZIP::ssf9.xml_;_
 Browser("Browser").Page("Booking.com | Official").Link("Sign in").Click @@ script infofile_;_ZIP::ssf10.xml_;_
- @@ hightlight id_;_65662_;_script infofile_;_ZIP::ssf12.xml_;_
+Browser("Browser").Close @@ hightlight id_;_65662_;_script infofile_;_ZIP::ssf12.xml_;_
