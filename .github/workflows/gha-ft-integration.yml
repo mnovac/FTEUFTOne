@@ -1,0 +1,51 @@
+name: GitHub-Action-FT-Integration-QA
+on:
+  workflow_dispatch:
+    inputs:
+      testsToRun:
+        description: 'Tests to run (from OpenText SDP/SDM)'
+        required: true
+        default: '...'
+      suiteRunId:
+        description: 'Suite Run Id (from OpenText SDP/SDM)'
+        required: true
+        default: '0'
+      executionId:
+        description: 'Execution Id (from OpenText SDP/SDM)'
+        required: true
+        default: '0'
+      suiteId:
+        description: 'Suite Id (from OpenText SDP/SDM)'
+        required: true
+        default: '0'    
+  push:
+    branches:
+      - main
+permissions:
+  actions: read  # Explicitly grant actions:read for this workflow
+  contents: read  # Retain read access to contents if needed
+env: 
+    NODE_TLS_REJECT_UNAUTHORIZED: 0
+    ACTIONS_STEP_DEBUG: true  # Enables debug logging
+jobs:
+  ft_integration_job:
+    runs-on: self-hosted
+    name: Integration-Job
+    steps:
+      - name: Log workflow inputs for Octane
+        run: |
+          $inputs = ConvertFrom-Json -InputObject '${{ toJson(github.event.inputs) }}'
+          Write-Host "execution_parameter:: $($inputs | ConvertTo-Json -Compress)"
+
+      - name: GitHub Action FT Integration
+        uses: dorin7bogdan/github-action-ft-integration@qa
+        id: gha-ft-integration
+        with:
+          octaneUrl: 'https://integration-master-dev.almoctane.com'
+          octaneSharedSpace: 1007
+          octaneWorkspace: 3001
+          octaneClientId: ${{secrets.OCTANE_CLIENT_ID}}
+          octaneClientSecret: ${{secrets.OCTANE_CLIENT_SECRET}}
+          githubToken: ${{secrets.GITHUB_TOKEN}}
+          minSyncInterval: 0.5
+          logLevel: 2          
