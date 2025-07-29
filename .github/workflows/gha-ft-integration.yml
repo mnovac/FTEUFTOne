@@ -43,7 +43,7 @@ jobs:
         with:
           octaneUrl: 'https://integration-master-dev.almoctane.com'
           octaneSharedSpace: 2004
-          octaneWorkspace: 3001
+          octaneWorkspace: 2002
           octaneClientId: ${{secrets.OCTANE_CLIENT_ID}}
           octaneClientSecret: ${{secrets.OCTANE_CLIENT_SECRET}}
           githubToken: ${{secrets.GITHUB_TOKEN}}
