@@ -42,8 +42,8 @@ jobs:
         id: gha-ft-integration
         with:
           octaneUrl: 'https://qa91.almoctane.com'
-          octaneSharedSpace: 135002
-          octaneWorkspace: 2001
+          octaneSharedSpace: 1001
+          octaneWorkspace: 37001
           octaneClientId: ${{secrets.OCTANE_CLIENT_ID}}
           octaneClientSecret: ${{secrets.OCTANE_CLIENT_SECRET}}
           githubToken: ${{secrets.GITHUB_TOKEN}}
