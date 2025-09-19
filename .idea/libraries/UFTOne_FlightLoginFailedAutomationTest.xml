@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UFTOne_FlightLoginFailedAutomationTest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UFTOne_FlightLoginFailedAutomationTest.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
