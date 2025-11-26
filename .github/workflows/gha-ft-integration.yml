@@ -41,9 +41,9 @@ jobs:
         uses: dorin7bogdan/github-action-ft-integration@qa
         id: gha-ft-integration
         with:
-          octaneUrl: 'https://integration-master-dev.almoctane.com'
-          octaneSharedSpace: 2004
-          octaneWorkspace: 2001
+          octaneUrl: 'https://nightly-dev.almoctane.com'
+          octaneSharedSpace: 1001
+          octaneWorkspace: 31004
           octaneClientId: ${{secrets.OCTANE_CLIENT_ID}}
           octaneClientSecret: ${{secrets.OCTANE_CLIENT_SECRET}}
           githubToken: ${{secrets.GITHUB_TOKEN}}
