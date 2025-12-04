@@ -41,9 +41,9 @@ jobs:
         uses: MicroFocus/github-action-ft-integration-mbt@main
         id: gha-ft-integration
         with:
-          octaneUrl: 'https://integration-master-dev.almoctane.com'
-          octaneSharedSpace: 2003
-          octaneWorkspace: 2001
+          octaneUrl: 'https://nadav-2.almoctane.com'
+          octaneSharedSpace: 1002
+          octaneWorkspace: 1002
           octaneClientId: ${{secrets.OCTANE_CLIENT_ID}}
           octaneClientSecret: ${{secrets.OCTANE_CLIENT_SECRET}}
           githubToken: ${{secrets.GITHUB_TOKEN}}
