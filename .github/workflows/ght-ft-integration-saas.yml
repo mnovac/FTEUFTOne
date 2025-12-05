@@ -38,7 +38,7 @@ jobs:
           Write-Host "execution_parameter:: $($inputs | ConvertTo-Json -Compress)"
 
       - name: GitHub Action FT Integration
-        uses: MicroFocus/github-action-ft-integration-mbt@main
+        uses: opentext/github-action-ft-integration-mbt@main
         id: gha-ft-integration
         with:
           octaneUrl: 'https://integration-master-dev.almoctane.com'
