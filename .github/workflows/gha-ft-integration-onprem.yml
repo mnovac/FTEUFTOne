@@ -42,7 +42,7 @@ jobs:
         id: gha-ft-integration
         with:
           octaneUrl: 'https://nadav-2.almoctane.com'
-          octaneSharedSpace: 1002
+          octaneSharedSpace: 1001
           octaneWorkspace: 1002
           octaneClientId: ${{secrets.OCTANE_CLIENT_ID}}
           octaneClientSecret: ${{secrets.OCTANE_CLIENT_SECRET}}
