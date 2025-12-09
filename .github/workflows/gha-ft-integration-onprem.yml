@@ -32,10 +32,10 @@ jobs:
     runs-on: [self-hosted, onprem]
     name: Integration-Job
     steps:
-      - name: Log workflow inputs for Octane
-        run: |
-          $inputs = ConvertFrom-Json -InputObject '${{ toJson(github.event.inputs) }}'
-          Write-Host "execution_parameter:: $($inputs | ConvertTo-Json -Compress)"
+      # - name: Log workflow inputs for Octane
+        # run: |
+          # $inputs = ConvertFrom-Json -InputObject '${{ toJson(github.event.inputs) }}'
+          # Write-Host "execution_parameter:: $($inputs | ConvertTo-Json -Compress)"
 
       - name: GitHub Action FT Integration
         uses: opentext/github-action-ft-integration-mbt@main
