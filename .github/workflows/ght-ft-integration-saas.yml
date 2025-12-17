@@ -20,7 +20,7 @@ on:
         default: '0'    
   push:
     branches:
-      - master
+      - secondary
 permissions:
   actions: write  # Explicitly grant actions:read for this workflow
   contents: read  # Retain read access to contents if needed
