@@ -19,6 +19,8 @@ on:
         required: true
         default: '0'    
   push:
+    branches:
+      - secondary
 permissions:
   actions: write  # Explicitly grant actions:read for this workflow
   contents: read  # Retain read access to contents if needed
@@ -41,7 +43,7 @@ jobs:
         with:
           octaneUrl: 'https://nadav-2.almoctane.com'
           octaneSharedSpace: 1001
-          octaneWorkspace: 1002
+          octaneWorkspace: 1003
           octaneClientId: ${{secrets.OCTANE_CLIENT_ID}}
           octaneClientSecret: ${{secrets.OCTANE_CLIENT_SECRET}}
           githubToken: ${{secrets.GITHUB_TOKEN}}
