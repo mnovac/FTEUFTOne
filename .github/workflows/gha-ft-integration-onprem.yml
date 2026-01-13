@@ -41,7 +41,7 @@ jobs:
         uses: opentext/sdp-ft-mbt-github-action-integration@main
         id: gha-ft-integration
         with:
-          octaneUrl: 'https://nadav-1.almoctane.com'
+          octaneUrl: 'https://nadav-2.almoctane.com'
           octaneSharedSpace: 1001
           octaneWorkspace: 1002
           octaneClientId: ${{secrets.OCTANE_CLIENT_ID}}
