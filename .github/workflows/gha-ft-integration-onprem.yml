@@ -38,12 +38,12 @@ jobs:
           # Write-Host "execution_parameter:: $($inputs | ConvertTo-Json -Compress)"
 
       - name: GitHub Action FT Integration
-        uses: opentext/sdp-ft-mbt-github-action-integration@main
+        uses: opentext/sdp-ft-mbt-github-action-integration@v26.1.0
         id: gha-ft-integration
         with:
-          octaneUrl: 'https://felix-1.almoctane.com'
+          octaneUrl: 'https://nadav-1.almoctane.com'
           octaneSharedSpace: 1001
-          octaneWorkspace: 1004
+          octaneWorkspace: 1002
           octaneClientId: ${{secrets.OCTANE_CLIENT_ID}}
           octaneClientSecret: ${{secrets.OCTANE_CLIENT_SECRET}}
           githubToken: ${{secrets.GITHUB_TOKEN}}
